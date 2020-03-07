@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách sản phẩm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<p><b>Danh sách sản phẩm</b></p>
+<input type="text" id="nameInput" style="width: 270px">
+<button onclick="addProduct()">Thêm sản phẩm</button><br><br>
+<table border="1px solid" cellpadding="5" cellspacing="1" id = "all-table">
+    <thead>
+    <tr>
+        <td width="20px">STT</td>
+        <td width="300px">Tên sản phẩm</td>
+        <td width="100px" colspan="3">Action</td>
+    </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+</body>
+<script src="js/app.js"></script>
+</html>
